@@ -1,0 +1,51 @@
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins"
+}
+.container{
+    background-color: rgb(140, 0, 164);
+    padding: 3em 3em;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    width: 600px;
+
+}
+#newQuote{
+    font-size: 1.2rem;
+    padding: .6em 1em;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .3s linear;
+    width: 10em;
+
+}
+#newQuote:hover{
+    background-color: rgb(95, 0, 111);
+
+}
+#quote{
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    width: 60%;
+
+
+}
+.author{
+    margin-top: -1em;
+    color: rgb(179, 179, 179);
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 1.5rem;
+}
